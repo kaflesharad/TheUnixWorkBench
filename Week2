@@ -1,0 +1,27 @@
+Man Command - Shows the manual of all bash commands Manual
+eg. man man
+
+apropos command - searches for the command available 
+eg. apropos editor // searches all the available editor commands 
+
+grep command - for searching and listing the file content. 
+eg. grep "New" states.txt // shows all the content of states.txt containing the word "New". 
+
+egrep commands - (Extended grep) with added functionality 
+
+find command - to find the location of file or group of file 
+              - to search for the file according to the flags
+              
+  eg. find . -name "states.txt" 
+  eg. find . -name ".html.txt"
+  
+ 
+EXERCISE: 
+a) egrep -n "New" states.txt canada.txt
+
+b) egrep "[^eiou]" states.txt > no_a.txt
+   egrep "[^ioua]" states.txt > no_e.txt and so on
+
+c) find . -name "*.html" > HTMLdocs.txt
+   wc HTMLdocs.txt
+   
