@@ -16,7 +16,7 @@ find command - to find the location of file or group of file
   eg. find . -name ".html.txt"
   
  
-EXERCISE: 
+EXERCISE I : 
 a) egrep -n "New" states.txt canada.txt
 
 b) egrep "[^eiou]" states.txt > no_a.txt
@@ -25,3 +25,11 @@ b) egrep "[^eiou]" states.txt > no_a.txt
 c) find . -name "*.html" > HTMLdocs.txt
    wc HTMLdocs.txt
    
+
+history Command : 
+Whenever we close the terminal, our recent commands are written to bash_history file. 
+bash_history is a hidden file in home directory. 
+
+head -n 10 ~/.bash_history //it shows the topmost 10 commands from the bash_history file. 
+egrep "states" ~/.bash_history // shows the result of searching.
+
