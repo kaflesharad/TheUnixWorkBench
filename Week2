@@ -33,3 +33,11 @@ bash_history is a hidden file in home directory.
 head -n 10 ~/.bash_history //it shows the topmost 10 commands from the bash_history file. 
 egrep "states" ~/.bash_history // shows the result of searching.
 
+diff command: 
+To generate the difference between any two files. 
+eg. diff file1.txt file2.txt
+
+sdiff command : 
+To generate side by side differences. 
+eg. sdiff file1.txt file2.txt
+
