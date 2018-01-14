@@ -18,5 +18,8 @@ eg. grep "[aeiou]$" states.txt | wc -l
  In Summary; The pipe (|) takes the output of the program on its left side and directs the output to be the input 
  for the program on its right side. 
  
+ EXERCISE : 
+ a) grep "New" states.txt | wc -l
  
-    
+ b) sort ~/.bash_history | uniq | wc -l
+ 
