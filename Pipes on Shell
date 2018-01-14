@@ -1,0 +1,22 @@
+Skilled use of Pipes (|) on shell, is the most powerful tool. 
+Basic Syntax: 
+  [program that produces output] | [new command]
+  
+It is like fitting an actul pipe between the end of one program and connecting it to the top of another program . 
+
+eg. cat file.txt | head -n 5 
+    This command is same as head -n 5 file.txt. It is given here for the illustration of pipe (|) . 
+
+eg. grep "[aeiou]$" states.txt | wc -l
+    This command gives the number of states ending with vowel letter as output in the console. 
+ 
+ Pipes can be used multiple times as per the condition as ; 
+ 
+ ls -al | grep "Feb" | less 
+ 
+ 
+ In Summary; The pipe (|) takes the output of the program on its left side and directs the output to be the input 
+ for the program on its right side. 
+ 
+ 
+    
