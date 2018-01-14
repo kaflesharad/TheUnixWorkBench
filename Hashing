@@ -1,0 +1,13 @@
+Hashes are used to ensure that a file is genuine. 
+
+Hashing program generate a unique code based on the content of file. 
+Two identical file have same Hash (or Checksum). 
+
+If the computed hash code match with the provided hash code, then only the product is said to be genuine. 
+
+COMMONLY USED FILE HASHES 
+a. md5
+b. shasum 
+
+eg. md5sum file_name.txt
+eg. shasum file_name.txt
